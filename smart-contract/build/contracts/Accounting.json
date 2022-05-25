@@ -1,0 +1,241 @@
+{
+  "contractName": "Accounting",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Libraries.sol\":\"Accounting\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Libraries.sol\":{\"keccak256\":\"0x963ebe149a2d2350eed02698bfe610b5af69f92a51ecf17f8ec94693d5301f3e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://626ebb3befbe0d7eee2558ebbe1dd5ce4e2124acecf2118968db1597b5566edc\",\"dweb:/ipfs/QmXxn4p57Mu58LPzpGxxTUs32DL8KpYrKKwK23wXoqQxVw\"]}},\"version\":1}",
+  "bytecode": "0x60566050600b82828239805160001a6073146043577f4e487b7100000000000000000000000000000000000000000000000000000000600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220712977d995bf31081b9ea886decf046272666b0b8b607e8d607cfa8ee8603cc664736f6c63430008000033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220712977d995bf31081b9ea886decf046272666b0b8b607e8d607cfa8ee8603cc664736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "60:92:8:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "60:92:8:-:0;;;;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\nlibrary Accounting {\r\n    struct Order{\r\n        uint cost;\r\n        uint startAt;\r\n    }\r\n}\r\n",
+  "sourcePath": "C:\\Users\\filip\\iot-blockchain\\iot-summer-school\\smart-contract\\contracts\\Libraries.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Libraries.sol",
+    "exportedSymbols": {
+      "Accounting": [
+        1034
+      ]
+    },
+    "id": 1035,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1028,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:8"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "fullyImplemented": true,
+        "id": 1034,
+        "linearizedBaseContracts": [
+          1034
+        ],
+        "name": "Accounting",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Accounting.Order",
+            "id": 1033,
+            "members": [
+              {
+                "constant": false,
+                "id": 1030,
+                "mutability": "mutable",
+                "name": "cost",
+                "nodeType": "VariableDeclaration",
+                "scope": 1033,
+                "src": "109:9:8",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1029,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "109:4:8",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1032,
+                "mutability": "mutable",
+                "name": "startAt",
+                "nodeType": "VariableDeclaration",
+                "scope": 1033,
+                "src": "129:12:8",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1031,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "129:4:8",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Order",
+            "nodeType": "StructDefinition",
+            "scope": 1034,
+            "src": "86:63:8",
+            "visibility": "public"
+          }
+        ],
+        "scope": 1035,
+        "src": "60:92:8"
+      }
+    ],
+    "src": "33:121:8"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Libraries.sol",
+    "exportedSymbols": {
+      "Accounting": [
+        1034
+      ]
+    },
+    "id": 1035,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1028,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:8"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "fullyImplemented": true,
+        "id": 1034,
+        "linearizedBaseContracts": [
+          1034
+        ],
+        "name": "Accounting",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Accounting.Order",
+            "id": 1033,
+            "members": [
+              {
+                "constant": false,
+                "id": 1030,
+                "mutability": "mutable",
+                "name": "cost",
+                "nodeType": "VariableDeclaration",
+                "scope": 1033,
+                "src": "109:9:8",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1029,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "109:4:8",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1032,
+                "mutability": "mutable",
+                "name": "startAt",
+                "nodeType": "VariableDeclaration",
+                "scope": 1033,
+                "src": "129:12:8",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1031,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "129:4:8",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Order",
+            "nodeType": "StructDefinition",
+            "scope": 1034,
+            "src": "86:63:8",
+            "visibility": "public"
+          }
+        ],
+        "scope": 1035,
+        "src": "60:92:8"
+      }
+    ],
+    "src": "33:121:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-28T12:21:17.566Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
